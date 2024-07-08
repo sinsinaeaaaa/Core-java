@@ -1,0 +1,15 @@
+
+public class LoopDemo {
+	public static void main(String[] args) {
+		//A-Z까지 출력하기
+		int i = 65; // initialization, 꼭 for 문 안에 넣는것이 아니라 for 바깥에 써도 된다.
+		for ( ; i<=90 ; ) {
+			System.out.printf("%c\t",(char)i);
+			if((i+1)%5==0) {
+				System.out.println();
+			}
+			i++; // 증감식을 이렇게 for문 안에 아래에 써주어도 된다.
+		}
+		System.out.println();
+	}
+}

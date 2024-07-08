@@ -1,0 +1,8 @@
+
+public class SungjukMnmt {
+
+	public static void main(String[] args) {
+		Student chulsu = new Student();// chulsu 인스턴스 메모리는 8byte
+	}
+
+}
